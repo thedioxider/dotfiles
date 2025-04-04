@@ -1,0 +1,4 @@
+Host gh_thedioxider
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/gh_thedioxider

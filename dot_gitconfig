@@ -1,0 +1,21 @@
+[user]
+	name = Demetrius
+	email = thedioxider@mail.ru
+	signingkey = ~/.ssh/gh_thedioxider.pub
+[init]
+	defaultbranch = master
+;[credential]
+    ;helper = /usr/bin/git-credential-manager
+    ;credentialStore = gpg
+[credential "https://dev.azure.com"]
+    useHttpPath = true
+[credential "https://github.com"]
+    helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+    helper = !/usr/bin/gh auth git-credential
+[core]
+	autocrlf = input
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
