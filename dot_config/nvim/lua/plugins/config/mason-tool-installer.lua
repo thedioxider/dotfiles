@@ -8,7 +8,6 @@ return require('mason-tool-installer').setup {
         'codelldb',
         'pyright',
         'google-java-format',
-        'asm-lsp',
         'rust-analyzer',
         'typescript-language-server',
         'prettier',
