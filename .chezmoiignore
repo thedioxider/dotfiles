@@ -1,2 +1,5 @@
+.ssh/*
+!.ssh/config
+
 .config/nvim/plugin/
 .config/fish/fish_variables
