@@ -15,3 +15,5 @@ alias cp='cp -i'
 alias mv='mv -i'
 
 alias cz=chezmoi
+# file manager
+alias fm=yazi

@@ -8,4 +8,6 @@ alias mv='mv -i'
 if status is-interactive
     # Commands to run in interactive sessions can go here
     alias cz=chezmoi
+    # file manager
+    alias fm=yazi
 end
