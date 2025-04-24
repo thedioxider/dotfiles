@@ -5,6 +5,7 @@ require('conform').setup {
         cpp = { 'clang-format' },
         py = { 'pyink' },
         rs = { 'rustfmt' },
+        json = { 'biome' },
     },
     log_level = vim.log.levels.ERROR,
     notify_on_error = true,

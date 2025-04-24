@@ -13,5 +13,6 @@ return require('mason-tool-installer').setup {
         'prettier',
         'eslint_d',
         'html-lsp',
+        'biome',
     }
 }
