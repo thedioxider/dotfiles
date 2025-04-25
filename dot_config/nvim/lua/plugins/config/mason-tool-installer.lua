@@ -14,5 +14,7 @@ return require('mason-tool-installer').setup {
         'eslint_d',
         'html-lsp',
         'biome',
+        'rnix-lsp',
+        'nixfmt',
     }
 }

@@ -6,6 +6,7 @@ require('conform').setup {
         py = { 'pyink' },
         rs = { 'rustfmt' },
         json = { 'biome' },
+        nix = { 'nixfmt' },
     },
     log_level = vim.log.levels.ERROR,
     notify_on_error = true,
