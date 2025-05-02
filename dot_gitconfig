@@ -12,3 +12,5 @@
 	gpgsign = true
 [credential "https://github.com"]
     helper = !/usr/bin/gh auth git-credential
+[safe]
+	directory = /etc/nixos
